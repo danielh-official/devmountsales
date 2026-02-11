@@ -19,6 +19,7 @@
         "secondnetwork/blade-tabler-icons": "^3.21.0"
     },
     "require-dev": {
+        "danielh-official/laravel-database-gui": "*",
         "barryvdh/laravel-ide-helper": "^3.6",
         "fakerphp/faker": "^1.9.1",
         "laravel/pint": "^1.0",
@@ -70,5 +71,11 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../laravel-database-gui"
+        }
+    ]
 }
